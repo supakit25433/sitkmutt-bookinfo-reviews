@@ -1,7 +1,7 @@
 services:
   reviews:
     build: .
-    image: ghcr.io/supakit25433/bookinfo-reviews:dev
+    image: ghcr.io/supakit25433/bookinfo-reviews:prd
     ports:
       - "8082:9080"
     environment:
